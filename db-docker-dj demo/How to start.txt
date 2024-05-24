@@ -1,0 +1,17 @@
+First, please make sure you have installed Django, if not, please run this in terminal:
+首先，确保您安装了Django。如果没有，请在terminal运行：
+pip install django
+
+Then, please make sure you have installed djongo, if not, please run this in terminal:
+您需要安装djongo，这是一个用于Django连接MongoDB的包，如果没有，请在terminal运行：
+pip install djongo
+
+Please make sure you have docker desktop.
+请确保您下载了docker客户端。
+
+Final, please run this in terminal:
+最后，运行Docker Compose：
+docker-compose up
+
+Your Django project will be started and linked to MongoDB in Docker. You can CRUD in the website: http://localhost:8000.
+这样，您的Django项目就会启动，并连接到Docker中的MongoDB，您可以在浏览器中访问http://localhost:8000  来进行CRUD操作。
